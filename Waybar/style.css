@@ -10,10 +10,9 @@
  window#waybar {
      background: transparent;
      background-color: transparent;
-     color: #f2f2b0;
+     color: #EB5B00;
      transition-property: background-color;
      transition-duration: 0.1s;
-     border-bottom: 1px solid @overlay1;
  }
  
  #window {
@@ -21,7 +20,23 @@
      padding-left: 8px;
      padding-right: 8px;
  }
- 
+
+ .modules-right{
+     background-color: rgba(40, 42, 54, 0.5);
+     border-radius: 50px;
+     margin-right: 10px;
+ }
+
+ .modules-center{
+     background-color: rgba(40, 42, 54, 0.5 );
+     border-radius: 50px;
+ }
+
+ .modules-left {
+     background-color: rgba(40, 42, 54, 0.5);
+     border-radius: 50px;
+}
+
  button {
      box-shadow: inset 0 -3px transparent;
      border: none;
@@ -76,27 +91,27 @@
  }
  
  #cpu {
-     color: #ffcbcb;
+     color: #FFB200;
  }
  
  #memory {
-     color: #ffcbcb;
+     color: #FFB200;
  }
  
  #clock {
-     color: #f6e5e5;
+     color: #FC4100;
  }
  
  #clock.date {
-     color: #f6e5e5;
+     color: #FC4100;
  }
  
  #pulseaudio {
-     color: #cadefc;
+     color: #FC4100;
  }
  
  #network {
-     color: #defcf9;
+     color: #FC4100;
  }
  
  #idle_inhibitor {
@@ -109,7 +124,7 @@
  }
  
  #battery {
-     color: #c3bef0;
+     color: #FC4100;
  }
  
  #custom-power {
@@ -128,7 +143,7 @@
  
  dsdoo
  #custom-vpn {
-     color: @lavender;
+     color: #FC4100;
      border-radius: 15px;
      padding-left: 6px;
      padding-right: 6px;
