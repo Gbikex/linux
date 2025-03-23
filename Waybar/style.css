@@ -46,8 +46,7 @@
  
  button:hover {
      background: inherit;
-     color: @mauve;
-     border-top: 2px solid @mauve;
+     color: #FFBE98;
  }
  
  #workspaces button {
